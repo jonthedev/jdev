@@ -1,5 +1,6 @@
-import { clients } from "../data";
-import SectionTitle from "./SectionTitle";
+import { clients } from "~/data/clients";
+
+import SectionTitle from "~/components/SectionTitle";
 
 const Clients = () => {
   return (
@@ -11,7 +12,7 @@ const Clients = () => {
             <article
               key={client.id}
               className='flex items-center justify-center bg-neutral-900 rounded-md'>
-              <img src={client.img} alt='' width={200} height={200} />
+              {client.img}
             </article>
           );
         })}

@@ -1,5 +1,4 @@
-import developerImg from "../assets/developer.svg";
-import hacker from "src/assets/hacker.svg";
+import hacker from "~assets/hacker.svg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {

@@ -1,6 +1,7 @@
-import { skills } from "../data";
-import SectionTitle from "./SectionTitle";
-import SkillsCard from "./SkillsCard";
+import { skills } from "~/data/skills";
+import SectionTitle from "~/components/SectionTitle";
+import SkillsCard from "~/components/SkillsCard";
+
 const Skills = () => {
   return (
     <section className='py-20 align-element ' id='skills'>

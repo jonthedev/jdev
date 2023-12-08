@@ -1,6 +1,5 @@
-import { FaInfo, FaLinkedin, FaPhone } from "react-icons/fa";
-import SectionTitle from "./SectionTitle";
-import { TbMail } from "react-icons/tb";
+import { FaInfo, FaPhone } from "react-icons/fa";
+import SectionTitle from "~/components/SectionTitle";
 
 const Contact = () => {
   return (

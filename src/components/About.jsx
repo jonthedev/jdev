@@ -1,5 +1,6 @@
-import aboutSvg from "../assets/about.svg";
-import SectionTitle from "./SectionTitle";
+import aboutSvg from "~assets/about.svg";
+import SectionTitle from "~/components/SectionTitle";
+
 const About = () => {
   return (
     <section className='py-20' id='about'>
@@ -12,7 +13,7 @@ const About = () => {
             in <span className='text-orange-700'>HTML</span>,{" "}
             <span className='text-blue-500'>CSS</span>,{" "}
             <span className='text-yellow-500'>JavaScript</span>,{" "}
-            <spam className='text-cyan-400'>React</spam>, and{" "}
+            <span className='text-cyan-400'>React</span>, and{" "}
             <span className='text-blue-600'>TypeScript</span>,
             bringing web interfaces to life with seamless
             interactivity.
@@ -27,7 +28,7 @@ const About = () => {
             with the magic of animations.
           </p>
           <p className='text-slate-50 mt-8 leading-loose'>
-            Whether it's crafting pixel-perfect UIs or orchestrating
+            Whether It's crafting pixel-perfect UIs or orchestrating
             captivating 3D visuals, I thrive on the intersection of
             technology and creativity.
           </p>
