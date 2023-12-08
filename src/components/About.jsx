@@ -5,7 +5,11 @@ const About = () => {
   return (
     <section className='py-20' id='about'>
       <div className='align-element grid md:grid-cols-2 items-center gap-16 text-lg md:text-2xl'>
-        <img src={aboutSvg} className='w-full h-64' />
+        <img
+          src={aboutSvg}
+          className='w-full h-64'
+          alt='2 people typing on a type writer'
+        />
         <article className='font-kanit'>
           <SectionTitle text='About' />
           <p className='text-slate-50 mt-8 leading-loose'>
