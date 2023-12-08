@@ -1,3 +1,4 @@
+import BackToTopButton from "~components/BackToTopButton";
 import About from "./components/About";
 import Clients from "./components/Clients";
 import Contact from "./components/Contact";
@@ -16,6 +17,7 @@ const App = () => {
       <Clients />
       <Projects />
       <Contact />
+      <BackToTopButton />
     </div>
   );
 };
