@@ -6,13 +6,13 @@ const Hero = () => {
     <div className='py-24 font-kanit'>
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
         <article>
-          <h1 className='text-7xl font-bold tracking-wider text-slate-50'>
+          <h1 className='text-5xl md:text-7xl font-bold tracking-wider text-slate-50'>
             I'm Jonathan
           </h1>
-          <p className='mt-4 text-3xl text-slate-50 capitalize tracking-wide'>
+          <p className='mt-4 text-2xl md:text-3xl text-slate-50 capitalize tracking-wide'>
             Web / Creative Developer
           </p>
-          <p className='mt-4 text-2xl text-slate-50 capitalize tracking-wide'>
+          <p className='mt-4 text-lg md:text-2xl text-slate-50 capitalize tracking-wide'>
             London{" "}
             <span role='img' aria-label='Union Jack Flag'>
               🇬🇧{" "}
@@ -22,7 +22,7 @@ const Hero = () => {
               🇳🇱
             </span>
           </p>
-          <p className='mt-2 text-lg text-slate-50 capitalize tracking-wide'>
+          <p className='mt-2 text-md md:text-lg text-slate-50 capitalize tracking-wide'>
             turning ideas into interactive reality
           </p>
           <div className='flex gap-x-4 mt-4'>

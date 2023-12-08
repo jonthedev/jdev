@@ -13,7 +13,7 @@ export const skills = [
     title: "HTML & CSS",
     icon: (
       <FaHtml5
-        className='h-16 w-16 text-orange-700'
+        className='h-11 w-11 md:h-16 md:w-16 text-orange-700'
         title='HTML and CSS'
       />
     ),
@@ -24,7 +24,7 @@ export const skills = [
     title: "JavaScript",
     icon: (
       <FaJs
-        className='h-16 w-16 text-yellow-500 animate-bounce'
+        className='h-11 w-11 md:h-16 md:w-16 text-yellow-500 animate-bounce'
         title='JavaScript'
       />
     ),
@@ -35,7 +35,7 @@ export const skills = [
     title: "React",
     icon: (
       <FaReact
-        className='h-16 w-16 text-cyan-400 animate-spin'
+        className='h-11 w-11 md:h-16 md:w-16 text-cyan-400 animate-spin'
         title='React'
       />
     ),
@@ -46,7 +46,7 @@ export const skills = [
     title: "TypeScript",
     icon: (
       <TbBrandTypescript
-        className='h-16 w-16 text-blue-600 animate-pulse'
+        className='h-11 w-11 md:h-16 md:w-16 text-blue-600 animate-pulse'
         title='TypeScript'
       />
     ),
@@ -57,7 +57,7 @@ export const skills = [
     title: "Github",
     icon: (
       <FaGithub
-        className='h-16 w-16 text-slate-50 animate-bounce'
+        className='h-11 w-11 md:h-16 md:w-16 text-slate-50 animate-bounce'
         title='Github'
       />
     ),
@@ -68,7 +68,7 @@ export const skills = [
     title: "ThreeJs",
     icon: (
       <TbBrandThreejs
-        className='h-16 w-16 text-slate-50 animate-spin'
+        className='h-11 w-11 md:h-16 md:w-16 text-slate-50 animate-spin'
         title='Three JS'
       />
     ),
@@ -79,7 +79,7 @@ export const skills = [
     title: "Blender",
     icon: (
       <TbBrandBlender
-        className='h-16 w-16 text-orange-700 animate-pulse'
+        className='h-11 w-11 md:h-16 md:w-16 text-orange-700 animate-pulse'
         title='Blender'
       />
     ),
@@ -90,7 +90,7 @@ export const skills = [
     title: "CSS Frameworks",
     icon: (
       <TbBrandTailwind
-        className='h-16 w-16 text-cyan-400 animate-bounce'
+        className='h-11 w-11 md:h-16 md:w-16 text-cyan-400 animate-bounce'
         title='Tailwind CSS'
       />
     ),

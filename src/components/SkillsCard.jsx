@@ -10,12 +10,14 @@ const SkillsCard = ({ icon, title, text }) => {
             <FaPlus className='text-slate-50 mr-2' />
           </span>
           <span>
-            <FaCss3 className='h-16 w-16 text-blue-500' />
+            <FaCss3 className='h-11 w-11 md:h-16 md:w-16 text-blue-500' />
           </span>
         </div>
 
         <h4 className='mt-6 font-bold text-indigo-500'>{title}</h4>
-        <p className='mt-2 text-slate-50 text-lg'>{text}</p>
+        <p className='mt-2 text-slate-50 text-md md:text-xl'>
+          {text}
+        </p>
       </article>
     );
   }
@@ -23,7 +25,7 @@ const SkillsCard = ({ icon, title, text }) => {
     <article>
       <span>{icon}</span>
       <h4 className='mt-6 font-bold text-indigo-500'>{title}</h4>
-      <p className='mt-2 text-slate-50 text-lg'>{text}</p>
+      <p className='mt-2 text-slate-50 text-md md:text-xl'>{text}</p>
     </article>
   );
 };
