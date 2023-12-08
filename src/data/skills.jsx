@@ -61,7 +61,7 @@ export const skills = [
         title='Github'
       />
     ),
-    text: "Utilizing GitHub as a central hub for seamless collaboration, I leverage its powerful version control features to push forward the evolution of front-end projects."
+    text: "Utilizing GitHub as a central hub for seamless collaboration, I leverage it's powerful version control features to push forward the evolution of projects."
   },
   {
     id: nanoid(),
