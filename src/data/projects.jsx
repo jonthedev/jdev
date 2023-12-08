@@ -1,5 +1,4 @@
 import { nanoid } from "nanoid";
-import { FaCss3, FaReact } from "react-icons/fa";
 import {
   SiChakraui,
   SiStorybook,
@@ -9,7 +8,6 @@ import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
 
 import ProjectVanlanschot from "~assets/project-vanlanschot.png";
 import ProjectANWB from "~assets/project-anwb-traffic-verkeer.png";
-import ProjectStayInTheCircle from "~/assets/project-stay-in-the-circle.png";
 
 export const projects = [
   {
@@ -17,6 +15,7 @@ export const projects = [
     img: (
       <img
         src={ProjectANWB}
+        alt='Screenshot of the traffic verkeer app'
         className='w-full object-cover rounded-t-lg h-64'
       />
     ),
@@ -59,6 +58,7 @@ export const projects = [
     img: (
       <img
         src={ProjectVanlanschot}
+        alt='screenshot of homepage for van lanschot kempen'
         className='w-full object-cover rounded-t-lg h-64'
       />
     ),
