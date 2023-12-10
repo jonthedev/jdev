@@ -33,7 +33,7 @@ const BackToTopButton = () => {
     <button
       className={`${
         isVisible ? "opacity-100" : "opacity-0"
-      } fixed bottom-4 right-4 p-1 bg-indigo-600 text-white rounded-full transition-opacity duration-300 focus:outline-none focus:ring focus:border-blue-300`}
+      } fixed bottom-6 right-6 p-1 bg-indigo-600 text-white rounded-full transition-opacity duration-300 focus:outline-none focus:ring focus:border-blue-300`}
       onClick={scrollToTop}>
       <FaArrowCircleUp className='h-6 w-6' />
     </button>
