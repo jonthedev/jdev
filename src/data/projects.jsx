@@ -64,7 +64,7 @@ export const projects = [
     ),
     url: "https://www.vanlanschotkempen.com/en-nl",
     github: null,
-    title: "Vanlanschot Kempen",
+    title: "Van Lanschot Kempen",
     text: "Built a reusable component library for Van Lanschot Kempen's re-brand strategy.",
     tech: [
       {
