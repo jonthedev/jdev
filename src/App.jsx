@@ -1,11 +1,12 @@
-import BackToTopButton from "~components/BackToTopButton";
-import About from "./components/About";
-import Clients from "./components/Clients";
-import Contact from "./components/Contact";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import BackToTopButton from "~components/BackToTopButton"
+import About from "./components/About"
+import Clients from "./components/Clients"
+import Contact from "./components/Contact"
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
+import Projects from "./components/Projects"
+import Skills from "./components/Skills"
+import { Footer } from "~components/Footer"
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       <Projects />
       <Contact />
       <BackToTopButton />
+      <Footer />
     </div>
-  );
-};
-export default App;
+  )
+}
+export default App
