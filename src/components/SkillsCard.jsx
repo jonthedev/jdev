@@ -1,4 +1,4 @@
-import { FaCss3, FaPlus } from "react-icons/fa";
+import { FaCss3, FaPlus } from "react-icons/fa"
 
 const SkillsCard = ({ icon, title, text }) => {
   if (title === "HTML & CSS") {
@@ -14,19 +14,23 @@ const SkillsCard = ({ icon, title, text }) => {
           </span>
         </div>
 
-        <h3 className='mt-6 font-bold text-indigo-500'>{title}</h3>
+        <h3 className='mt-6 font-bold text-amber-600 italic'>
+          {title}
+        </h3>
         <p className='mt-2 text-slate-50 text-md md:text-xl'>
           {text}
         </p>
       </article>
-    );
+    )
   }
   return (
     <article>
       <span>{icon}</span>
-      <h3 className='mt-6 font-bold text-indigo-500'>{title}</h3>
+      <h3 className='mt-6 font-bold text-amber-600 italic'>
+        {title}
+      </h3>
       <p className='mt-2 text-slate-50 text-md md:text-xl'>{text}</p>
     </article>
-  );
-};
-export default SkillsCard;
+  )
+}
+export default SkillsCard

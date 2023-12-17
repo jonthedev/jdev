@@ -1,11 +1,6 @@
 import { nanoid } from "nanoid"
 import { FaGithub, FaHtml5, FaJs, FaReact } from "react-icons/fa"
-import {
-  TbBrandBlender,
-  TbBrandTailwind,
-  TbBrandThreejs,
-  TbBrandTypescript
-} from "react-icons/tb"
+import { TbBrandTailwind, TbBrandTypescript } from "react-icons/tb"
 
 export const skills = [
   {

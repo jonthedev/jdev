@@ -1,9 +1,9 @@
 import hacker from "~assets/hacker.svg"
-import { FaGithub, FaGithubSquare, FaLinkedin } from "react-icons/fa"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 const Hero = () => {
   return (
-    <div className='py-24 font-kanit'>
+    <div className='py-24'>
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-5xl md:text-7xl font-bold tracking-wider text-slate-50'>
@@ -31,7 +31,7 @@ const Hero = () => {
               target='_blank'
               rel='noreferrer'>
               <FaGithub
-                className='h-8 w-8 bg-slate-50 hover:text-neutral-500'
+                className='h-8 w-8 text-slate-50 hover:text-neutral-500 duration-300'
                 title='Github'
               />
             </a>
@@ -41,7 +41,7 @@ const Hero = () => {
               rel='noreferrer'
               className=' bg-slate-5'>
               <FaLinkedin
-                className='h-8 w-8 bg-slate-50 text-blue-600 hover:text-neutral-500'
+                className='h-8 w-8 text-blue-500 hover:text-neutral-500 duration-300'
                 title='LinkedIn'
               />
             </a>

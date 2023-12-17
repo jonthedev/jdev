@@ -19,7 +19,7 @@ const About = () => {
             alt='Picture of Jonathan looking at a mountain'
           />
         </div>
-        <article className='font-kanit'>
+        <article>
           <SectionTitle text='About' />
           <p className='text-slate-50 mt-8 leading-loose text-md md:text-xl'>
             <FaBrain className='inline-block text-pink-500' />

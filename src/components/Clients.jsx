@@ -1,6 +1,6 @@
-import { clients } from "~/data/clients";
+import { clients } from "~/data/clients"
 
-import SectionTitle from "~/components/SectionTitle";
+import SectionTitle from "~/components/SectionTitle"
 
 const Clients = () => {
   return (
@@ -11,14 +11,14 @@ const Clients = () => {
           return (
             <article
               key={client.id}
-              className='flex items-center justify-center bg-neutral-900 rounded-md'>
+              className='flex items-center justify-center bg-slate-50 rounded-md'>
               {client.img}
             </article>
-          );
+          )
         })}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Clients;
+export default Clients

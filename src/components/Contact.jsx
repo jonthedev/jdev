@@ -18,7 +18,7 @@ const Contact = () => {
             target='_blank'
             rel='noreferrer'>
             <FaLinkedin
-              className='h-4 w-4 md:h-6 md:w-6 md:mt-2 text-blue-600 bg-slate-50 hover:text-neutral-500'
+              className='h-4 w-4 md:h-6 md:w-6 md:mt-2 text-blue-500 hover:text-neutral-500'
               title='LinkedIn'
             />
           </a>
