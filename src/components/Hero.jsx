@@ -1,5 +1,5 @@
-import hacker from "~assets/hacker.svg";
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import hacker from "~assets/hacker.svg"
+import { FaGithub, FaGithubSquare, FaLinkedin } from "react-icons/fa"
 
 const Hero = () => {
   return (
@@ -25,22 +25,23 @@ const Hero = () => {
           <p className='mt-2 text-md md:text-lg text-slate-50 capitalize tracking-wide'>
             turning ideas into interactive reality
           </p>
-          <div className='flex gap-x-4 mt-4'>
+          <div className='flex gap-x-4 mt-4 items-center'>
             <a
               href='https://github.com/jonthedev'
               target='_blank'
               rel='noreferrer'>
-              <FaGithubSquare
-                className='h-8 w-8 text-slate-50 hover:text-neutral-500'
+              <FaGithub
+                className='h-8 w-8 bg-slate-50 hover:text-neutral-500'
                 title='Github'
               />
             </a>
             <a
               href='https://www.linkedin.com/in/jonathan-kaonga-5a04871b5/'
               target='_blank'
-              rel='noreferrer'>
+              rel='noreferrer'
+              className=' bg-slate-5'>
               <FaLinkedin
-                className='h-8 w-8 rounded-md text-blue-600 bg-slate-50 hover:text-neutral-500'
+                className='h-8 w-8 bg-slate-50 text-blue-600 hover:text-neutral-500'
                 title='LinkedIn'
               />
             </a>
@@ -51,6 +52,6 @@ const Hero = () => {
         </article>
       </div>
     </div>
-  );
-};
-export default Hero;
+  )
+}
+export default Hero

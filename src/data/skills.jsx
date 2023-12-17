@@ -1,11 +1,11 @@
-import { nanoid } from "nanoid";
-import { FaGithub, FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { nanoid } from "nanoid"
+import { FaGithub, FaHtml5, FaJs, FaReact } from "react-icons/fa"
 import {
   TbBrandBlender,
   TbBrandTailwind,
   TbBrandThreejs,
   TbBrandTypescript
-} from "react-icons/tb";
+} from "react-icons/tb"
 
 export const skills = [
   {
@@ -63,28 +63,28 @@ export const skills = [
     ),
     text: "Utilizing GitHub as a central hub for seamless collaboration, I leverage it's powerful version control features to push forward the evolution of projects."
   },
-  {
-    id: nanoid(),
-    title: "ThreeJs",
-    icon: (
-      <TbBrandThreejs
-        className='h-11 w-11 md:h-16 md:w-16 text-slate-50 animate-spin'
-        title='Three JS'
-      />
-    ),
-    text: "My expertise extends to the world of 3D graphics, where I harness the power of Three.js to bring dynamic and visually captivating elements to the web."
-  },
-  {
-    id: nanoid(),
-    title: "Blender",
-    icon: (
-      <TbBrandBlender
-        className='h-11 w-11 md:h-16 md:w-16 text-orange-700 animate-pulse'
-        title='Blender'
-      />
-    ),
-    text: "With a flair for creativity, I've delved into the realm of 3D modeling using Blender, seamlessly integrating artistic expression with technical finesse."
-  },
+  // {
+  //   id: nanoid(),
+  //   title: "ThreeJs",
+  //   icon: (
+  //     <TbBrandThreejs
+  //       className='h-11 w-11 md:h-16 md:w-16 text-slate-50 animate-spin'
+  //       title='Three JS'
+  //     />
+  //   ),
+  //   text: "My expertise extends to the world of 3D graphics, where I harness the power of Three.js to bring dynamic and visually captivating elements to the web."
+  // },
+  // {
+  //   id: nanoid(),
+  //   title: "Blender",
+  //   icon: (
+  //     <TbBrandBlender
+  //       className='h-11 w-11 md:h-16 md:w-16 text-orange-700 animate-pulse'
+  //       title='Blender'
+  //     />
+  //   ),
+  //   text: "With a flair for creativity, I've delved into the realm of 3D modeling using Blender, seamlessly integrating artistic expression with technical finesse."
+  // },
   {
     id: nanoid(),
     title: "CSS Frameworks",
@@ -96,4 +96,4 @@ export const skills = [
     ),
     text: "I use CSS frameworks like tailwind to quickly deploy things like responsive grids, themes, styled forms, buttons, or other important UI elements on web pages and apps."
   }
-];
+]
