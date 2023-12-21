@@ -1,5 +1,6 @@
 import hacker from "~assets/hacker.svg"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { Hacker } from "./Hacker"
 
 const Hero = () => {
   return (
@@ -48,7 +49,7 @@ const Hero = () => {
           </div>
         </article>
         <article className='hidden md:block'>
-          <img src={hacker} />
+          <Hacker />
         </article>
       </div>
     </div>

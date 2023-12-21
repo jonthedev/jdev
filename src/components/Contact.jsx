@@ -25,8 +25,10 @@ const Contact = () => {
         </div>
         <div className='flex items-center justify-center text-sm md:text-md text-slate-50 tracking-wide pt-4'>
           <FaCopyright />{" "}
-          <span className='ml-2'>
-            {new Date().getFullYear()} J Dev.
+          <span className='ml-2 italic'>
+            {new Date().getFullYear()}{" "}
+            <span className='text-amber-600'>J</span>{" "}
+            <span className='italic'>Dev.</span>
           </span>
         </div>
       </section>
