@@ -1,17 +1,7 @@
-import {
-  moveUp,
-  moveLeft,
-  fadeIn
-} from "./theme/animations/keyframes"
-
-import {
-  fadeInDefault,
-  moveLeftDefault,
-  moveLeftSlow,
-  moveUpDefault
-} from "./theme/animations/animations"
-
 /** @type {import('tailwindcss').Config} */
+
+import animationsData from "./theme/animations/index.js"
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -19,17 +9,8 @@ export default {
       fontFamily: {
         kanit: ["Kanit", "sans-serif"]
       },
-      animation: {
-        fadeInDefault,
-        moveLeftDefault,
-        moveLeftSlow,
-        moveUpDefault
-      },
-      keyframes: {
-        fadeIn,
-        moveLeft,
-        moveUp
-      }
+      animation: animationsData.animations,
+      keyframes: animationsData.keyframes
     }
   },
   plugins: []
