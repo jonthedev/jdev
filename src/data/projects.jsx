@@ -1,13 +1,13 @@
-import { nanoid } from "nanoid";
+import { nanoid } from "nanoid"
 import {
   SiChakraui,
   SiStorybook,
   SiStyledcomponents
-} from "react-icons/si";
-import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
+} from "react-icons/si"
+import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb"
 
-import ProjectVanlanschot from "~assets/project-vanlanschot.png";
-import ProjectANWB from "~assets/project-anwb-traffic-verkeer.png";
+import ProjectVanlanschot from "~assets/project-vanlanschot.png"
+import ProjectANWB from "~assets/project-anwb-traffic-verkeer.png"
 
 export const projects = [
   {
@@ -105,29 +105,4 @@ export const projects = [
       }
     ]
   }
-  // {
-  //   id: nanoid(),
-  //   img: (
-  //     <img
-  //       src={ProjectStayInTheCircle}
-  //       className='w-full object-cover rounded-t-lg h-64'
-  //     />
-  //   ),
-  //   url: "https://reverent-fermi-0b8273.netlify.app/",
-  //   github: "https://github.com/jonthedev/stay-in-the-circle",
-  //   title: "Stay in The circle",
-  //   text: "A fun interactive game where the user must stay within the circle or deal with the infamous Mr.T.",
-  //   tech: [
-  //     {
-  //       id: nanoid(),
-  //       icon: <FaCss3 className='h-7 w-7 text-blue-500' title='CSS' />
-  //     },
-  //     {
-  //       id: nanoid(),
-  //       icon: (
-  //         <FaReact className='h-7 w-7 text-cyan-400' title='React' />
-  //       )
-  //     }
-  //   ]
-  // }
-];
+]

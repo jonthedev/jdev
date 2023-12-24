@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-import animationsData from "./theme/animations/index.js"
+import animationsData from "./src/theme/animations/index.js"
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],

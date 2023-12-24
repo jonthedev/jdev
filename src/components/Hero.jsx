@@ -1,4 +1,3 @@
-import hacker from "~assets/hacker.svg"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { Hacker } from "./Hacker"
 
