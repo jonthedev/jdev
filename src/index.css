@@ -58,14 +58,6 @@
   }
 }
 
-@keyframes move-tl {
-  from {
-    transform: translateY(0%) translateX(0%);
-  }
-
-  to {
-    transform: translateX(-1.6rem) translateY(-1.6rem);
-  }
 } */
 
 @layer components {

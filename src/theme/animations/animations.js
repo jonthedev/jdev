@@ -1,15 +1,45 @@
-const fadeInDefault = "fadeIn 2s infinite alternate"
-const moveLeftDefault = "moveLeft 2s ease infinite alternate"
-const moveLeftSlow = "moveLeft 3s ease infinite alternate"
-const moveUpDefault = "moveUp 2s ease infinite alternate"
+import { generateAnimationString } from "./utils"
 
-const moveUpAndLeftDefault =
-  "moveUpAndLeft 2s ease infinite alternate"
+const fadeInDefault = generateAnimationString("fadeIn")
+const fadeInSlow = generateAnimationString("fadeIn", "3s")
+
+const moveLeftDefault = generateAnimationString("moveLeft")
+const moveLeftSlow = generateAnimationString("moveLeft", "3s")
+
+const moveUpDefault = generateAnimationString("moveUp")
+const moveUpSlow = generateAnimationString("moveUp", "3s")
+
+const moveDownDefault = generateAnimationString("moveDown")
+const moveDownSlow = generateAnimationString("moveDown", "3s")
+
+const moveRightDefault = generateAnimationString("moveRight")
+const moveRightSlow = generateAnimationString("moveRight", "3s")
+
+const moveUpAndLeftDefault = generateAnimationString("moveUpAndLeft")
+
+const moveUpAndRightDefault =
+  generateAnimationString("moveUpAndRight")
+
+const moveDownAndRightDefault = generateAnimationString(
+  "moveDownAndRight"
+)
+
+const moveDownAndLeftDefault =
+  generateAnimationString("moveDownAndLeft")
 
 export default {
   fadeInDefault,
+  fadeInSlow,
   moveLeftDefault,
   moveLeftSlow,
+  moveRightDefault,
+  moveRightSlow,
   moveUpDefault,
-  moveUpAndLeftDefault
+  moveUpSlow,
+  moveDownDefault,
+  moveDownSlow,
+  moveUpAndLeftDefault,
+  moveUpAndRightDefault,
+  moveDownAndRightDefault,
+  moveDownAndLeftDefault
 }

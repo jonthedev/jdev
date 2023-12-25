@@ -14,7 +14,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square animate-moveUpDefault'
+        className='matrix-square'
       />
       <rect
         x='184.41358'
@@ -22,7 +22,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square animate-moveLeftDefault'
+        className='matrix-square'
       />
       <rect
         x='198.30247'
@@ -30,7 +30,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square animate-fadeInDefault'
+        className='matrix-square'
       />
       <rect
         x='198.30247'
@@ -38,7 +38,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square animate-moveUpAndLeftDefault'
+        className='matrix-square'
       />
       <rect
         x='213.73457'
