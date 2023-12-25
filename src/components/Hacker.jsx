@@ -38,7 +38,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveUpAndLeftDefault'
       />
       <rect
         x='213.73457'
