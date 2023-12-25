@@ -6,60 +6,6 @@
   fill: #000;
 }
 
-/* #row1-square-1 {
-  animation: move-tr 3s ease infinite alternate,
-    fade-in 3s ease infinite alternate;
-}
-
-#row1-square-2 {
-  animation: move-tr 8s ease infinite alternate,
-    fade-in 8s ease infinite alternate;
-} */
-
-/* #row1-square-3 {
-  animation: move-tr 1s ease infinite alternate,
-    fade-in 1s ease infinite alternate;
-}
-#row1-square-4 {
-  animation: move-tr 5s ease infinite alternate,
-    fade-in 5s ease infinite alternate;
-}
-
-#row1-square-5 {
-  animation: move-tr 2s ease infinite alternate,
-    fade-in 2s ease infinite alternate;
-}
-#row1-square-6 {
-  animation: move-tr 2s ease infinite alternate,
-    fade-in 2s ease infinite alternate;
-}
-#row1-square-7 {
-  animation: move-tr 2s ease infinite alternate,
-    fade-in 2s ease infinite alternate;
-}
-#row1-square-8 {
-  animation: move-tr 4s ease infinite alternate,
-    fade-in 4s ease infinite alternate;
-}
-#row1-square-9 {
-  animation: move-tr 6s ease infinite alternate,
-    fade-in 6s ease infinite alternate;
-} */
-
-/*
-
-@keyframes move-tr {
-  from {
-    transform: translateY(0%) translateX(0%);
-  }
-
-  to {
-    transform: translateX(-1.6rem) translateY(1rem);
-  }
-}
-
-} */
-
 @layer components {
   .align-element {
     @apply mx-auto max-w-7xl px-4 md:px-8;
