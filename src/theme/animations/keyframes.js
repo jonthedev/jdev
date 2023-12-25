@@ -1,69 +1,25 @@
-import { mergeCssValues } from "./utils"
+import { generateCornerKeyframe, generateXYKeyframe } from "./utils"
 
 const fadeIn = {
   "0%": { opacity: "0" },
   "100%": { opacity: "1" }
 }
 
-const moveLeft = {
-  "0%": { transform: "translateX(0%)" },
-  "100%": {
-    transform: "translateX(-1.6rem)"
-  }
-}
+const moveLeft = generateXYKeyframe("x", 0, -1.6)
 
-const moveRight = {
-  "0%": { transform: "translateX(0%)" },
-  "100%": {
-    transform: "translateX(1.6rem)"
-  }
-}
+const moveRight = generateXYKeyframe("x", 0, 1.6)
 
-const moveUp = {
-  "0%": { transform: "translateY(0%)" },
-  "100%": { transform: "translateY(-1.6rem)" }
-}
+const moveUp = generateXYKeyframe("y", 0, -1.6)
 
-const moveDown = {
-  "0%": { transform: "translateY(0%)" },
-  "100%": { transform: "translateY(1.6rem)" }
-}
+const moveDown = generateXYKeyframe("y", 0, 1.6)
 
-const moveUpAndLeft = {
-  "0%": mergeCssValues("transform", moveUp["0%"], moveLeft["0%"]),
-  "100%": mergeCssValues(
-    "transform",
-    moveUp["100%"],
-    moveLeft["100%"]
-  )
-}
+const moveUpAndLeft = generateCornerKeyframe(moveUp, moveLeft)
 
-const moveUpAndRight = {
-  "0%": mergeCssValues("transform", moveUp["0%"], moveRight["0%"]),
-  "100%": mergeCssValues(
-    "transform",
-    moveUp["100%"],
-    moveRight["100%"]
-  )
-}
+const moveUpAndRight = generateCornerKeyframe(moveUp, moveRight)
 
-const moveDownAndRight = {
-  "0%": mergeCssValues("transform", moveDown["0%"], moveRight["0%"]),
-  "100%": mergeCssValues(
-    "transform",
-    moveDown["100%"],
-    moveRight["100%"]
-  )
-}
+const moveDownAndRight = generateCornerKeyframe(moveDown, moveRight)
 
-const moveDownAndLeft = {
-  "0%": mergeCssValues("transform", moveDown["0%"], moveLeft["0%"]),
-  "100%": mergeCssValues(
-    "transform",
-    moveDown["100%"],
-    moveLeft["100%"]
-  )
-}
+const moveDownAndLeft = generateCornerKeyframe(moveDown, moveLeft)
 
 export default {
   fadeIn,
