@@ -85,7 +85,7 @@ export const skills = [
     title: "CSS Frameworks",
     icon: (
       <TbBrandTailwind
-        className='h-11 w-11 md:h-16 md:w-16 text-cyan-400 animate-bounce'
+        className='h-11 w-11 md:h-16 md:w-16 text-cyan-400 animate-spin'
         title='Tailwind CSS'
       />
     ),

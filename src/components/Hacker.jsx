@@ -14,7 +14,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square animate-moveDownAndLeftDefault'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='184.41358'
@@ -22,7 +22,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='198.30247'
@@ -30,7 +30,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='198.30247'
@@ -38,7 +38,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='213.73457'
@@ -46,7 +46,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='213.73457'
@@ -54,7 +54,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='198.30247'
@@ -62,7 +62,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='213.73457'
@@ -70,7 +70,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='198.30247'
@@ -78,7 +78,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='184.41358'
@@ -86,7 +86,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='158.17901'
@@ -94,7 +94,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveLeftSlow'
       />
       <rect
         x='158.17901'
@@ -102,7 +102,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='158.17901'
@@ -110,7 +110,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='158.17901'
@@ -118,7 +118,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveRightSlow'
       />
       <rect
         x='155.09259'
@@ -126,7 +126,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='196.75926'
@@ -142,7 +142,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='155.09259'
@@ -150,7 +150,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='196.75926'
@@ -240,7 +240,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='184.414 180.556 184.414 183.642 187.5 183.642 187.5 189.815 184.414 189.815 184.414 192.901 192.13 192.901 192.13 180.556 184.414 180.556'
@@ -292,7 +292,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='292.43827'
@@ -300,7 +300,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='292.43827'
@@ -308,7 +308,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='292.438 120.37 292.438 123.457 295.525 123.457 295.525 129.63 292.438 129.63 292.438 132.716 300.154 132.716 300.154 120.37 292.438 120.37'
@@ -383,7 +383,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='269.29012'
@@ -391,7 +391,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='269.29012'
@@ -422,7 +422,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='269.29 180.556 269.29 183.642 272.377 183.642 272.377 189.815 269.29 189.815 269.29 192.901 277.006 192.901 277.006 180.556 269.29 180.556'
@@ -487,7 +487,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='306.32716'
@@ -495,7 +495,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='306.32716'
@@ -526,7 +526,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='306.327 180.556 306.327 183.642 309.414 183.642 309.414 189.815 306.327 189.815 306.327 192.901 314.043 192.901 314.043 180.556 306.327 180.556'
@@ -631,7 +631,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='238.42593'
@@ -639,7 +639,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveLeftSlow'
       />
       <rect
         x='235.33951'
@@ -647,7 +647,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='235.33951'
@@ -655,7 +655,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='235.33951'
@@ -663,7 +663,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='238.426 121.914 238.426 125 241.512 125 241.512 131.173 238.426 131.173 238.426 134.259 246.142 134.259 246.142 121.914 238.426 121.914'
@@ -686,7 +686,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='326.38889'
@@ -710,7 +710,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='323.30247'
@@ -741,7 +741,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='377.31481'
@@ -749,7 +749,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='391.2037'
@@ -757,7 +757,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='391.2037'
@@ -765,7 +765,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='406.6358'
@@ -773,7 +773,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='406.6358'
@@ -781,7 +781,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='391.2037'
@@ -789,7 +789,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='406.6358'
@@ -797,7 +797,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='391.2037'
@@ -805,7 +805,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='377.31481'
@@ -813,7 +813,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='351.08025'
@@ -821,7 +821,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveLeftSlow'
       />
       <rect
         x='351.08025'
@@ -829,7 +829,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='351.08025'
@@ -837,7 +837,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='351.08025'
@@ -845,7 +845,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveRightSlow'
       />
       <rect
         x='347.99383'
@@ -853,7 +853,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='389.66049'
@@ -869,7 +869,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='347.99383'
@@ -877,7 +877,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='389.66049'
@@ -967,7 +967,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='377.315 180.556 377.315 183.642 380.401 183.642 380.401 189.815 377.315 189.815 377.315 192.901 385.031 192.901 385.031 180.556 377.315 180.556'
@@ -1019,7 +1019,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='485.33951'
@@ -1027,7 +1027,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='485.33951'
@@ -1035,7 +1035,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='485.34 120.37 485.34 123.457 488.426 123.457 488.426 129.63 485.34 129.63 485.34 132.716 493.056 132.716 493.056 120.37 485.34 120.37'
@@ -1110,7 +1110,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='462.19136'
@@ -1118,7 +1118,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='462.19136'
@@ -1149,7 +1149,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='462.191 180.556 462.191 183.642 465.278 183.642 465.278 189.815 462.191 189.815 462.191 192.901 469.907 192.901 469.907 180.556 462.191 180.556'
@@ -1214,7 +1214,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='499.2284'
@@ -1222,7 +1222,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='499.2284'
@@ -1253,7 +1253,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='499.228 180.556 499.228 183.642 502.315 183.642 502.315 189.815 499.228 189.815 499.228 192.901 506.944 192.901 506.944 180.556 499.228 180.556'
@@ -1358,7 +1358,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='431.32716'
@@ -1366,7 +1366,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveLeftSlow'
       />
       <rect
         x='428.24074'
@@ -1374,7 +1374,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='428.24074'
@@ -1382,7 +1382,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='428.24074'
@@ -1390,7 +1390,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='431.327 121.914 431.327 125 434.414 125 434.414 131.173 431.327 131.173 431.327 134.259 439.043 134.259 439.043 121.914 431.327 121.914'
@@ -1413,7 +1413,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='519.29012'
@@ -1437,7 +1437,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='516.2037'
@@ -1468,7 +1468,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='570.21605'
@@ -1476,7 +1476,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='584.10494'
@@ -1484,7 +1484,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='584.10494'
@@ -1492,7 +1492,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='599.53704'
@@ -1500,7 +1500,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='599.53704'
@@ -1508,7 +1508,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='584.10494'
@@ -1516,7 +1516,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='599.53704'
@@ -1524,7 +1524,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='584.10494'
@@ -1532,7 +1532,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='570.21605'
@@ -1540,7 +1540,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='543.98148'
@@ -1548,7 +1548,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveLeftSlow'
       />
       <rect
         x='543.98148'
@@ -1556,7 +1556,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='543.98148'
@@ -1564,7 +1564,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='543.98148'
@@ -1572,7 +1572,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveRightSlow'
       />
       <rect
         x='540.89506'
@@ -1580,7 +1580,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='582.56173'
@@ -1596,7 +1596,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='540.89506'
@@ -1604,7 +1604,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='582.56173'
@@ -1694,7 +1694,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='570.216 180.556 570.216 183.642 573.302 183.642 573.302 189.815 570.216 189.815 570.216 192.901 577.932 192.901 577.932 180.556 570.216 180.556'
@@ -1746,7 +1746,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='678.24074'
@@ -1754,7 +1754,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='678.24074'
@@ -1762,7 +1762,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='678.241 120.37 678.241 123.457 681.327 123.457 681.327 129.63 678.241 129.63 678.241 132.716 685.957 132.716 685.957 120.37 678.241 120.37'
@@ -1837,7 +1837,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='655.09259'
@@ -1845,7 +1845,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='655.09259'
@@ -1876,7 +1876,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='655.093 180.556 655.093 183.642 658.179 183.642 658.179 189.815 655.093 189.815 655.093 192.901 662.809 192.901 662.809 180.556 655.093 180.556'
@@ -1941,7 +1941,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='692.12963'
@@ -1949,7 +1949,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='692.12963'
@@ -1962,12 +1962,12 @@ export const Hacker = () => {
       <polygon
         points='692.13 100.309 692.13 103.395 695.216 103.395 695.216 109.568 692.13 109.568 692.13 112.654 699.846 112.654 699.846 100.309 692.13 100.309'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='692.13 120.37 692.13 123.457 695.216 123.457 695.216 129.63 692.13 129.63 692.13 132.716 699.846 132.716 699.846 120.37 692.13 120.37'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='692.13 140.432 692.13 143.519 695.216 143.519 695.216 149.691 692.13 149.691 692.13 152.778 699.846 152.778 699.846 140.432 692.13 140.432'
@@ -1980,7 +1980,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='692.13 180.556 692.13 183.642 695.216 183.642 695.216 189.815 692.13 189.815 692.13 192.901 699.846 192.901 699.846 180.556 692.13 180.556'
@@ -1998,7 +1998,7 @@ export const Hacker = () => {
       <polygon
         points='692.13 220.679 692.13 223.765 695.216 223.765 695.216 229.938 692.13 229.938 692.13 233.025 699.846 233.025 699.846 220.679 692.13 220.679'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveLeftSlow'
       />
       <rect
         x='692.12963'
@@ -2006,7 +2006,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveLeftSlow'
       />
       <polygon
         points='692.13 260.802 692.13 263.889 695.216 263.889 695.216 270.062 692.13 270.062 692.13 273.148 699.846 273.148 699.846 260.802 692.13 260.802'
@@ -2085,7 +2085,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='624.2284'
@@ -2093,7 +2093,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-moveLeftSlow'
       />
       <rect
         x='621.14198'
@@ -2101,7 +2101,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='621.14198'
@@ -2109,7 +2109,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='621.14198'
@@ -2117,7 +2117,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <polygon
         points='624.228 121.914 624.228 125 627.315 125 627.315 131.173 624.228 131.173 624.228 134.259 631.944 134.259 631.944 121.914 624.228 121.914'
@@ -2140,7 +2140,7 @@ export const Hacker = () => {
         width='7.71605'
         height='12.34568'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInSlow'
       />
       <rect
         x='712.19136'
@@ -2164,7 +2164,7 @@ export const Hacker = () => {
         width='10.80247'
         height='1.54321'
         fill='#d97706'
-        className='matrix-square'
+        className='matrix-square animate-fadeInDefault'
       />
       <rect
         x='709.10494'
