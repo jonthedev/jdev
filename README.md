@@ -23,14 +23,3 @@ Beyond coding, I'm a dance and travel enthusiast. Exploring diverse cultures fue
 Let's build the future together, one line of code at a time!
 
 ✨🎨💻
-
-Row 1: #d97706
-Row 2: #ff0000
-Row 3: #fff760
-Row 4: #d97706
-Row 5: #004567
-Row 6: #0ff567
-Row 7: #0ff567
-Row 8: #0ff567
-Row 9: #0ff567
-Row 10: #00b3ff
