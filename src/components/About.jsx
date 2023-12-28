@@ -43,11 +43,11 @@ const About = () => {
             <FaTrophy className='inline-block text-yellow-500' />
             <br />
             Representing <span className='italic'> 'iO'</span>{" "}
-            consultancy I collaborated with JavaScript consultancy{" "}
-            <span className='italic'>'Passionate People'</span> to
-            tackle a complex re brand strategy for ANWB'S multi
-            million user application Traffic Verkeer, which received
-            'Traffic Website Of The Year Award'.
+            consultancy, I collaborated with JavaScript consultancy{" "}
+            <span className='italic'>'Passionate People'</span>. We
+            tackled a complex re brand strategy for ANWB'S multi
+            million user application Traffic Verkeer, which resulted
+            in the team receiving 'Traffic Website Of The Year Award'.
           </p>
           <p className='text-slate-50 mt-8 leading-loose text-md md:text-xl'>
             <FaRegAddressCard className='inline-block text-green-500' />
