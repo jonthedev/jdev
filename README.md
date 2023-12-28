@@ -14,4 +14,4 @@
 
 This space serves as a online portfolio to showcase some of my projects.
 
-Check my [github readme](https://github.com/jonthedev/jonthedev) for more my details about me.
+Check my [github readme](https://github.com/jonthedev/jonthedev) for more details about me.
