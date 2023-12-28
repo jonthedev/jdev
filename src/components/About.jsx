@@ -10,7 +10,7 @@ import { FaPersonRays } from "react-icons/fa6"
 
 const About = () => {
   return (
-    <section className='py-20' id='about'>
+    <section className='py-28' id='about'>
       <div className='align-element grid md:grid-cols-2 items-center gap-16 text-lg md:text-2xl'>
         <div>
           <img

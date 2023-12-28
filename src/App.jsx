@@ -9,7 +9,9 @@ import Skills from "~/components/Skills"
 
 const App = () => {
   return (
-    <div className='bg-neutral-900 font-kanit leading-loose'>
+    <div
+      className='bg-neutral-900 font-kanit leading-loose'
+      id='home'>
       <Navbar />
       <Hero />
       <Skills />
