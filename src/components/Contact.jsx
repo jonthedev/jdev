@@ -1,5 +1,5 @@
 import { FaCopyright, FaLinkedin } from "react-icons/fa"
-import SectionTitle from "~/components/SectionTitle"
+import SectionTitle from "~components/SectionTitle"
 
 const Contact = () => {
   return (

@@ -1,5 +1,5 @@
 import BackToTopButton from "~components/BackToTopButton"
-import About from "~/components/About"
+import About from "~components/About"
 import Clients from "~/components/Clients"
 import Contact from "~/components/Contact"
 import Hero from "~/components/Hero"
